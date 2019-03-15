@@ -2,7 +2,7 @@ class Solver:
 
     def calculate(self, cadena):
         arr=[]
-        if(cadena==""):
+        if(len(cadena)==0):
             arr.append(0)
 
 
